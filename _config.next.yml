@@ -28,7 +28,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -296,7 +296,7 @@ related_posts:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: true
+  enable: false
   url: https://github.com/lirifa/hexo_blog/tree/master/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
 
@@ -615,8 +615,8 @@ valine:
 #  appId: SrfsHnowMKGFV98dUhS51HY0-gzGzoHsz
 #  appKey: 5S8chII9IgKLBJd5oPsuFz3v
   serverURLs: # When the custom domain name is enabled, fill it in here
-  placeholder: "输入你的评论\n昵称为必填项目，输入QQ号可以直接获取用户名和头像，并且省去了填写邮箱的麻烦！\n虽然email不是必选，但是填写了email可以收到推送通知哦！"
-  avatar: ""
+  placeholder: "输入你的评论\n输入QQ号可以直接获取用户名和头像哦~"
+  avatar: "https://s3.ax1x.com/2020/11/17/DZYpwT.png"
   meta: [nick, mail, link]
   pageSize: 10 # Pagination size
   lang:  # Language, available values: en, zh-cn
@@ -624,7 +624,7 @@ valine:
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: true # Whether to record the commenter IP
   enableQQ: true  # Whether to enable the Nickname box to automatically get QQ Nickname and QQ Avatar
-  requiredFields: [nick] # Set required fields: [nick] | [nick, mail]
+  requiredFields: [] # Set required fields: [nick] | [nick, mail]
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
@@ -834,15 +834,15 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/rstacruz/nprogress
 nprogress:
-  enable: false
+  enable: true
   spinner: true
 
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
-  size: 300 # The width of the ribbon
-  alpha: 0.6 # The transparency of the ribbon
+  enable: true
+  size: 100 # The width of the ribbon
+  alpha: 0.3 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
 
 

@@ -16,7 +16,7 @@ categories: 技术
 
 那么这时查询软件与服务器交互如下图：
 
-![Image text](https://user-gold-cdn.xitu.io/2018/8/11/1652968f281dc0f6?imageslim)
+![Image text](https://s3.ax1x.com/2020/11/18/Dm0wZ9.png)
 
 很容易理解，每一次航班动态查询，client都需要向server发起请求，然后等待server端的响应结果。当client收到响应后，本次通信的生命周期即宣告结束。
 
@@ -114,7 +114,7 @@ categories: 技术
 
 如下图所示：
 
-![Image text](https://user-gold-cdn.xitu.io/2018/8/11/165297933e4426ae?imageslim)
+![Image text](https://s3.ax1x.com/2020/11/18/Dm0oJP.png)
 
 ## WebSocket的出生
 
@@ -134,7 +134,7 @@ WebSocket约定了一个通信的规范，通过一个握手的机制，客户�
 
 用一张图来描述各个协议的关系：
 
-![Image text](https://user-gold-cdn.xitu.io/2018/8/11/165297b353710252?imageslim)
+![Image text](https://s3.ax1x.com/2020/11/18/DmDUE9.jpg)
 
 ### WebSocket的通信建立——握手过程
 
