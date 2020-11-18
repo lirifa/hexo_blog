@@ -1,5 +1,5 @@
 ---
-title: 什么是WebSocket以及它的用途
+title: 初识websocket
 comments: true
 tag: 网络
 categories: 技术
