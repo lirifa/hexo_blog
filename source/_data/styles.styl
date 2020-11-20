@@ -1,7 +1,7 @@
 .index
   .post-content
     background-color #f5f5f5
-    paddin: 20px
+    padding 20px
     border-radius 8px
 
 
@@ -43,4 +43,22 @@
     background-position: 100% 8px;
     border-bottom 1px solid #ccc
 // 留言板自定义样式 end
+
+
+// 侧边栏自定义样式
+.sidebar
+  &::before
+    position absolute
+    top 0
+    left 0
+    content ''
+    display block
+    width 100%
+    height 100%
+    background-image url(https://s3.ax1x.com/2020/11/20/DQA9iR.jpg)
+    background-image url(https://s3.ax1x.com/2020/11/20/DQAlSP.jpg)
+    background-size auto 100%
+    background-position center
+    opacity 0.1
+    z-index -1
 
