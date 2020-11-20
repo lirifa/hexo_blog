@@ -170,5 +170,7 @@ live2d:
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'https://github.com/lirifa/lirifa.github.io.git'
+  repo:
+    github: 'https://github.com/lirifa/lirifa.github.io.git'
+    gitee: 'https://gitee.com/rafaLi/rafaLi.git'
   branch: master
