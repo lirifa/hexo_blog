@@ -4,13 +4,17 @@
 
 # Site
 title: Rafa's Blog
-subtitle:
+subtitle: 角落
 description: 角落
 keywords: '个人博客，技术博客，git，github，hexo，静态'
 author: Rafa
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://lirifa.github.io
