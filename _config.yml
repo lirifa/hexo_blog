@@ -17,7 +17,7 @@ baidusitemap:
   path: baidusitemap.xml
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://lirifa.github.io
+url: https://lirifa.gitee.io
 root: /
 permalink: :title.html
 permalink_defaults:
@@ -33,7 +33,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: baidu_verify_code-ghsIT3UsXz.html
+skip_render: baidu_verify_code-n9jhkEQzl1.html
 
 # Writing
 new_post_name: :year-:month-:day-:title.md  # File name of new posts
@@ -177,5 +177,5 @@ deploy:
   type: 'git'
   repo:
     github: 'https://github.com/lirifa/lirifa.github.io.git'
-    gitee: 'https://gitee.com/rafaLi/rafaLi.git'
+    gitee: 'https://gitee.com/lirifa/lirifa.git'
   branch: master
