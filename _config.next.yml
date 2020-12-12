@@ -616,7 +616,7 @@ valine:
 #  appKey: 5S8chII9IgKLBJd5oPsuFz3v
   serverURLs: # When the custom domain name is enabled, fill it in here
   placeholder: "输入你的评论\n输入QQ号可以直接获取用户名和头像哦~"
-  avatar: "https://s3.ax1x.com/2020/11/17/DZYpwT.png"
+  avatar: 'wavatar'
   meta: [nick, mail, link]
   pageSize: 10 # Pagination size
   lang:  # Language, available values: en, zh-cn
