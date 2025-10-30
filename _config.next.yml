@@ -126,7 +126,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: https://p26-juejin-sign.byteimg.com/tos-cn-i-k3u1fbpfcp/3cd70fcb08bf479bb51e7607b0f53b01~tplv-k3u1fbpfcp-jj-mark-v1:0:0:0:0:5o6Y6YeR5oqA5pyv56S-5Yy6IEAg6IO95Yqb5pyJ6ZmQ6Z2S5bm0:q75.awebp?rk3s=436ef1ef&x-expires=1761125094&x-signature=BZI4j6J6Ot335J9MWDFXSiR%2BPZc%3D  #/images/avatar.gif
+  url: https://avatars.githubusercontent.com/u/44889418?v=4  #/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
