@@ -67,7 +67,7 @@ custom_logo: #/uploads/custom-logo.jpg
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: true
+  post: false
   language:
 
 
@@ -84,7 +84,7 @@ menu:
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  guestbook: /guestbook/ || fa fa-book
+  留言: /guestbook/ || fa fa-book
   about: /about/ || fa fa-user
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
@@ -233,11 +233,11 @@ footer:
 # See: https://theme-next.js.org/docs/theme-settings/posts
 # ---------------------------------------------------------------
 
-# Automatically excerpt description in homepage as preamble text.
+# Automatically excerpt description in homepage as preamble text. 自动摘录主页中的描述作为序言文本。
 excerpt_description: true
 
 # Read more button
-# If true, the read more button will be displayed in excerpt section.
+# If true, the read more button will be displayed in excerpt section.如果为真，阅读更多按钮将显示在摘录部分。
 read_more_btn: true
 
 # Post meta display settings
@@ -364,9 +364,9 @@ codeblock:
     dark: prism-dark
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Available values: default | flat | mac
-    style:
+    style: mac
 
 back2top:
   enable: true
@@ -735,7 +735,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -820,7 +820,7 @@ mermaid:
 # Use Animate.css to animate everything.
 # For more information: https://animate.style
 motion:
-  enable: true
+  enable: false
   async: false
   transition:
     # All available transition variants: https://theme-next.js.org/animate/

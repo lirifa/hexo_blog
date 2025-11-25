@@ -1,9 +1,11 @@
 .index
   .post-content
     background-color #f5f5f5
-    padding 20px
+    padding 16px
     border-radius 8px
-
+  &.posts-expand 
+    .post-block:not(:first-of-type)
+      margin-top 80px
 
 // 留言板自定义样式 start
 .guestbook-main
@@ -43,6 +45,15 @@
     background-position: 100% 8px;
     border-bottom 1px solid #ccc
 // 留言板自定义样式 end
+
+// 搜索框自定义样式
+.search-popup 
+  .search-result-container
+    overflow-x hidden
+
+@media (max-width: 920px)
+  .live2d-widget-container
+    opacity 0.1 !important
 
 
 // 侧边栏自定义样式
