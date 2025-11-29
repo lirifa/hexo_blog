@@ -566,7 +566,7 @@ comments:
   # Available values: tabs | buttons
   style: tabs
   # Choose a comment system to be displayed by default.
-  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+  # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
   active: livere
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
@@ -574,7 +574,7 @@ comments:
   lazyload: false
   # Modify texts or order for any navs, here are some examples.
   nav:
-    #disqus:
+    # disqus:
     #  text: Load Disqus
     #  order: -1
     #gitalk:
@@ -610,10 +610,11 @@ changyan:
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
   enable: false
-  appId: pL5f7A0sLfJNVYHvepBWv0QL-MdYXbMMI
-  appKey: 36SL4zjI54zPkb4d3QvT40iB
-#  appId: SrfsHnowMKGFV98dUhS51HY0-gzGzoHsz
-#  appKey: 5S8chII9IgKLBJd5oPsuFz3v
+  appId: Z4t5ChUJUjYgQ4d6bAW7zggu-MdYXbMMI
+  appKey: 3QEuIVWjzZqp2X8U8cYK26Pi
+  # appId: pL5f7A0sLfJNVYHvepBWv0QL-MdYXbMMI
+  # appKey: 36SL4zjI54zPkb4d3QvT40iB
+
   serverURLs: # When the custom domain name is enabled, fill it in here
   placeholder: "输入你的评论\n输入QQ号可以直接获取用户名和头像哦~"
   avatar: 'wavatar'
