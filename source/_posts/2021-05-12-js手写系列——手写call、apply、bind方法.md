@@ -1,5 +1,5 @@
 ---
-title: js手写系列————手写call、apply、bind方法
+title: js手写系列——手写call、apply、bind方法
 date: 2021-05-12 13:26:26
 updated: 2021-05-12 13:26:26
 tags: [js]
